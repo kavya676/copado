@@ -311,6 +311,16 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Customer_External_Id__c</fullName>
+        <externalId>true</externalId>
+        <label>Customer External Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>DandbCompanyId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Lookup</type>
